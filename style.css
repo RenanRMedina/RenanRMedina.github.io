@@ -1,0 +1,277 @@
+
+
+header {
+
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+header h1{
+    color: white;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.contenedor-inicio  nav ul li a{
+    text-align: none;
+    color: #3e09c3;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+
+
+
+
+.magia button{
+    cursor: pointer;
+    /*background-color: transparent;*/
+    background-color: blue;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.magia button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+.magia button:hover .overlay{
+    width: 100%;
+}
+
+
+nav a {
+
+    text-decoration: none;
+    color: black;
+}
+nav ul li a span {
+    width: 20rem;
+    margin-right: 10px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+   
+}
+
+body.light{
+    background-color: black;
+}
+
+h1, h2 {
+    color: #660000;
+    text-align: center;
+}
+
+h1.light {
+    color: white;
+   
+}
+
+section {
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(207, 203, 203);
+   
+}
+
+.sectionimg {
+
+   
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background-color: #252A2E;
+   
+  
+}
+
+
+img {
+
+    max-width: 200px;
+     padding: 0;
+     margin-left: -20px;
+     margin-top: -25px;
+     position: absolute;
+     border-radius: 15px;
+     border: 1px solid white;
+   
+}
+
+
+
+section.light{
+    background-color: rgb(206, 244, 244);
+}
+
+.descargacv {
+    cursor: pointer;
+    /*background-color: transparent;*/
+    background-color: blue;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    
+}
+
+.descargacv a {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    }
+    
+
+
+
+
+.magia button{
+    cursor: pointer;
+    /*background-color: transparent;*/
+    background-color: blue;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.magia button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+.magia button:hover .overlay{
+    width: 100%;
+}
+
+
+
+
+
+
+section i {
+    width: 100px;
+    height: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+
+
+
+/* SECCION CONTACTO */
+
+
+.contacto .col{
+    width: 60%;
+    padding: 10px;
+    position: relative;
+   margin-left: 100px;
+   
+}
+.contacto .col input, .contacto .col textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #252A2E;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+
+
+footer{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #1CB698;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+}
